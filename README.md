@@ -1,4 +1,4 @@
-# React TypeScript App
+# React AWS Amplify App
 
 This is an empty React TypeScript app that can be used as a starting point for a new project.
 
@@ -12,9 +12,9 @@ To get started, follow these steps:
 
 `
 git clone https://github.com/yourusername/react-typescript-app.git
-cd react-typescript-app
-npm install
-npm start
+cd react-aws-amplify
+yarn install
+yarn start
 `
 
 ### Available Scripts
