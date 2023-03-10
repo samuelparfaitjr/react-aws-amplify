@@ -5,16 +5,14 @@ function App() {
   return (
     <div className='app-container'>
       <header className='app-header'>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <h1>React.AWS.Amplify</h1>
         <a
           className='app-text__link'
           href='https://beta.reactjs.org/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          Learn React
+          This site is meant for development purposes only.
         </a>
       </header>
     </div>

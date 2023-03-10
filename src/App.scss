@@ -8,9 +8,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
 }
 
 .app-text__link {
-  color: #8261fb;
+  color: inherit;
+  text-decoration: none;
 }
