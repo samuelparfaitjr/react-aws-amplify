@@ -1,22 +1,30 @@
 import React from 'react';
 import './App.scss';
+import logo from './assets/logo.png';
+import '@aws-amplify/ui-react/styles.css';
+import {
+  withAuthenticator,
+  Button,
+  Heading,
+  Image,
+  View,
+  Card,
+} from '@aws-amplify/ui-react';
 
-function App() {
+type Props = {
+  signOut?: () => void;
+};
+
+function App({ signOut }: Props) {
   return (
-    <div className='app-container'>
-      <header className='app-header'>
-        <h1>React.AWS.Amplify</h1>
-        <a
-          className='app-text__link'
-          href='https://beta.reactjs.org/'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          This site is meant for development purposes only.
-        </a>
-      </header>
-    </div>
+    <View className='app__container'>
+      <Card>
+        <Image src={logo} className='app__logo' alt='Sign out'></Image>
+        <Heading level={1}>We now have Auth!</Heading>
+      </Card>
+      <Button onClick={signOut}>Sign Out</Button>
+    </View>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
