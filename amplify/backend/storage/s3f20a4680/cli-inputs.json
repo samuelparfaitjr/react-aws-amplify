@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3f20a4680",
+  "policyUUID": "f20a4680",
+  "bucketName": "reactawsamplifye6e8c524f1974239a1487a889932b9cc",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
